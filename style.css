@@ -1,0 +1,87 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    align-items: center;
+    padding: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+a:hover{
+    color: green;
+}
+h2{
+    color: dodgerblue;
+}
+p{
+    color: dimgrey;
+}
+button{
+    border: none;
+    width: 25%;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: dodgerblue;
+}
+button:hover{
+    background-color: green;
+}
+header div{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+header div h2{
+    font-family: arial;
+    color: dodgerblue;
+}
+header div img{
+    border: 3px solid dodgerblue;
+    margin: -1%;
+    border-radius: 50%;
+}
+main div section, header{
+    font-family: arial;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+footer div {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.projetos{
+    justify-content: space-around;
+    display: flex;
+}
+.btn{
+    width: 100%;
+}
+main div img{
+    border: 3px solid dodgerblue;
+    margin: -1%;
+    border-radius: 50%;
+}
+main section div{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
